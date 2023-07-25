@@ -1,0 +1,67 @@
+* {
+  direction: rtl;
+  text-align: center;
+}
+@font-face {
+    font-family: sarv;
+    src: url(./Digi\ Sarvenaz.ttf);
+}
+@font-face {
+    font-family: shohre;
+    src: url(./digi\ Shohreh\ bold.otf);
+}
+@font-face {
+    font-family: titr;
+    src: url(./BTitrBold.ttf);
+}
+@font-face {
+    font-family: lotus;
+    src: url(./BLotus.ttf);
+}
+
+header {
+  background-color: rgb(0, 150, 108);
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+}
+.description {
+  width: 300px;
+  font-family: sarv;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 50px;
+  font-family: shohre;
+  background-color: white;
+  color: rgb(0, 150, 108);
+  border-radius: 10px;
+  padding: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+
+.calculations{
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: lotus;
+    font-weight: bold;
+    color: rgb(1, 1, 144);
+}
+
+.calculations input{
+    color: red ;
+    font-size: 20px;
+    font-family: lotus;
+    width: 30px;
+    font-weight: bold;
+    padding: 0 3px;
+    border: none;
+}
+
+.calculations div{
+    margin-top: 3px;
+}

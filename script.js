@@ -1,12 +1,15 @@
 // بسم الله الرحمن الرحیم
 
+
+const allPages = 604;
+const allLines = 602 * 15 + 8 * 2;
 let lines = document.getElementById("lines");
 let pages = document.getElementById("pages");
 let pagesDuration = document.getElementById("pages__duration");
 let linesDuration = document.getElementById("lines__duration");
+linesDuration.innerHTML = linesToDays(lines.value);
+pagesDuration.innerHTML = pagesToDays(pages.value);
 
-const allPages = 604;
-const allLines = 602 * 15 + 8 * 2;
 
 function linesToDays(hafezLines) {
   if (hafezLines == 0 || undefined) {
@@ -43,4 +46,3 @@ lines.addEventListener("keyup", () => {
 pages.addEventListener("keyup", () => {
   pagesDuration.innerHTML = pagesToDays(pages.value);
 });
-console.log(Math.floor(800 % 365));

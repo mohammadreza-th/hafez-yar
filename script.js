@@ -13,7 +13,7 @@ pagesDuration.innerHTML = pagesToDays(pages.value);
 
 function linesToDays(hafezLines) {
   if (hafezLines == 0 || undefined) {
-    return "(لطفا در وارد کردن تعداد صفحات دقت فرمایید)";
+    return "(لطفا در وارد کردن تعداد سطر ها دقت فرمایید)";
   } else {
     let allDays = allLines / hafezLines;
     let years = Math.floor(allDays / 365);
